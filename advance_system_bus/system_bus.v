@@ -100,13 +100,14 @@ module system_bus
 			end
 	endgenerate	
 
-	
-	// Pipeline stages
+	// 
+	// Pipeline stages of arbitrator
 	// 1. Master identify and choose (based of valid signals and priority)
 	// 2. Identify the slave
 	// 3. write data to corresponding slave (interface registers)
 	// 4. Identify replied slaves.
 	// 5. Write the reply to corresponding master
+	// 
 	
 	
 	// Arbitrator
